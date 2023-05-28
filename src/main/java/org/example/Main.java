@@ -9,3 +9,8 @@ public class Main {
         System.out.println("Hello Vitaliy");
     }
 }
+
+    public void sysOut1(){
+        System.out.println("Hello Anya");
+    }
+}
