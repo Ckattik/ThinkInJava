@@ -13,5 +13,9 @@ public class Main {
         System.out.println("start");
     }
 
+    public void vitaliyOut(){
+        System.out.println("Vitaliy");
+    }
+
 
 }
