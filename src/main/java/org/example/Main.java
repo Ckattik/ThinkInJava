@@ -4,6 +4,22 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+
+
+        StaticTest st1 = new StaticTest();
+        StaticTest st2 = new StaticTest();
+        // обращение к static переменной через ссылку на обьект
+        System.out.println(st1.i);
+        System.out.println(st2.i);
+
+
+        // обращение к static переменной через имя класса(только для static)
+        StaticTest.i++;
+
+
+
+
+
     }
 
     public void sysOut(){
