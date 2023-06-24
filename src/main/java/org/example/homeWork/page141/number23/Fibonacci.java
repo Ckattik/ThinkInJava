@@ -5,14 +5,12 @@ public class Fibonacci {
 
 
         int x = 5;
+    }
 
 
-        public void number(int c){
+    public void number(int x){
 
-            int [] arr = new int[x];
-
-        }
-
+        int [] arr = new int[x];
 
     }
 }
