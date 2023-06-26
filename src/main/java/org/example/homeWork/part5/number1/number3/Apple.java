@@ -7,7 +7,15 @@ public class Apple {
 
     }
 
+
+    public Apple(String s){
+        System.out.println("Перегруженый конструктор " + s);
+    }
+
     public static void main(String[] args){
+
+        Apple apple1 = new Apple("тра тата ");
         Apple apple = new Apple();
+
     }
 }
